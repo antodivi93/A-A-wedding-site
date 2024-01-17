@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    background-color: black;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    display: block;
+}
+
+.background-container {
+    content: '';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/IMG_0577.jpeg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+header section {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+    top: 100vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section h3 {
+    font-size: 300%;
+}
+
+section h1 {
+    font-size: 500%;
+}
+
+.content {
+    width: 100%;
+    background-color: rgb(219,233,236);
+}
+
+.countdown-timer {
+    pointer-events: none;
+    cursor: default;
+    padding: 20px 0;
+}
+
+.section2 {
+    background-color: lightskyblue;
+    margin: auto;
+    color: white;
+    padding: 20px 0;
+}
+
+.section2 h1 {
+    text-align: center;
+}
+
+.section2 span {
+    color: red;
+}
+
+.section2 p {
+    padding: 10px 50px 50px;
+    font-size: 30px;
+}
+
+.section3 {
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.section3 .schedule {
+    float: left;
+    width: 40%;
+    font-size: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+.section3 .directions {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin: 20px 20px;
+}
+
+.section3 iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+
+.section4 {
+    width: 100%;
+    margin: auto;
+    padding: 10% 0;
+    color: white;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.section4 button {
+    width: 70%;
+    padding: 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: #e7e7e7; 
+    color: black;
+    font-size: 40px;
+    transition-duration: 0.4s;
+}
+
+.section4 button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+  }
